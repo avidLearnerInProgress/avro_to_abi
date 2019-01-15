@@ -1,0 +1,16 @@
+    avro_string_t db_indicator;
+    avro_double_t vec_size;
+    bitmap_vec_t bitmap_vec;
+    avro_string_t updt_fields;
+    avro_string_t eff_start_date = NULL;
+    avro_string_t eff_end_date = NULL;
+    avro_string_t dw_lod_tmp = NULL;
+    avro_string_t dw_upd_lod_tmp = NULL;
+    avro_long_t stg_id = NULL;
+    avro_double_t account_balance = NULL;
+    avro_double_t sterling_equiv = NULL;
+    avro_double_t euro_equiv = NULL;
+    avro_double_t us_dollar_equiv = NULL;
+    avro_double_t trading_entity_id = NULL;
+    avro_double_t bus_unit_id = NULL;
+    int avro_to_dml_version() = 1;

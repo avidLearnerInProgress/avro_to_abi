@@ -1,0 +1,17 @@
+record
+string(1) db_indicator;
+decimal(10) vec_size;
+unsigned_integer(8)[vec_size] bitmap_vec;
+string(integer(4)) updt_fields;
+date('YYYY-MM-DD') eff_start_date = NULL("");
+date('YYYY-MM-DD') eff_end_date = NULL("");
+datetime('YYYY-MM-DD HH24:MI:SS') dw_lod_tmp = NULL("");
+datetime('YYYY-MM-DD HH24:MI:SS') dw_upd_lod_tmp = NULL("");
+decimal("\x01") stg_id = NULL("");
+decimal("\x01") account_balance = NULL("");
+decimal("\x01") sterling_equiv = NULL("");
+decimal("\x01") euro_equiv = NULL("");
+decimal("\x01") us_dollar_equiv = NULL("");
+decimal("\x01") trading_entity_id = NULL("");
+decimal("\x01") bus_unit_id = NULL("");
+end;
